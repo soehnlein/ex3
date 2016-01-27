@@ -1,0 +1,188 @@
+/* +css reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 300;
+  line-height: 1;
+  background-color: white;
+  margin: auto;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* -css reset */
+
+#banner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 60px;
+  margin: 30px 0 50px 0;
+}
+
+h5 {
+  font-weight: 300;
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+#buddha {
+  background-color: #C9C1A8;
+  text-align: center;
+}
+
+#buddha img {
+  width: 395px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 60px 0 30px 0;
+}
+
+#activities {
+  background-color: #C9C1A8;
+  text-align: center;
+  height: 300px;
+}
+
+#activity-items li {
+  height: 35px;
+  float: left;
+  font-size: 11px;
+  line-height: 35px;
+  text-align: left;
+  text-indent: 5px;
+  font-weight: 500;
+}
+
+.time-segments {
+  display: table;
+  margin: auto;
+}
+
+#time1 {
+  width: 135px;
+  background-color: #C26F39;
+}
+
+#time2 {
+  width: 90px;
+  background-color: #94854E;
+}
+
+#time3 {
+  width: 90px;
+  background-color: #659A63;
+}
+
+#time4 {
+  width: 45px;
+  background-color: #C26F39;
+}
+
+#time5 {
+  width: 240px;
+  background-color: #37B079;
+}
+
+#time6 {
+  width: 90px;
+  background-color: #94854E;
+}
+
+#time7 {
+  width: 75px;
+  background-color: #F15A24;
+}
+
+#time8 {
+  width: 75px;
+  background-color: #C26F39;
+}
+
+#time9 {
+  width: 60px;
+  background-color: #F15A24;
+}
+
+li .popout {
+  width: 270px;
+  height: 70px;
+  display: none;
+  font-size: 12px;
+  padding: 15px;
+  font-weight: 500;
+}
+
+footer {
+  text-align: center;
+  height: 24px;
+  padding: 24px;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover {
+  color: gray;
+}
+
+#htmlValid {
+  margin-right: 50px;
+}
+
+/*.time:hover, .popout:hover {
+  .popout {
+    display: block;
+  }
+}*/
