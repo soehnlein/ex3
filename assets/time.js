@@ -65,4 +65,34 @@ $('#time9').hover(function() {
   $('#popout9').animate({height:'toggle'},100);
 });
 
+$('#map1').hover(function() {
+  $('#popout5').css('background-color', '#37B079').animate({height:'toggle'},200);
+}, function() {
+  $('#popout5').animate({height:'toggle'},100);
+});
+
+$('#map2').hover(function() {
+  $('#popout3').css('background-color', '#659A63').animate({height:'toggle'},200);
+}, function() {
+  $('#popout3').animate({height:'toggle'},100);
+});
+
+$('#map3').hover(function() {
+  $('#popout2, #popout6').css('background-color', '#94854E').animate({height:'toggle'},200);
+}, function() {
+  $('#popout2, #popout6').animate({height:'toggle'},100);
+});
+
+$('#map4').hover(function() {
+  $('#popout1, #popout4, #popout8').css('background-color', '#C26F39').animate({height:'toggle'},200);
+}, function() {
+  $('#popout1, #popout4, #popout8').animate({height:'toggle'},100);
+});
+
+$('#map5').hover(function() {
+  $('#popout7, #popout9').css('background-color', '#F15A24').animate({height:'toggle'},200);
+}, function() {
+  $('#popout7, #popout9').animate({height:'toggle'},100);
+});
+
 }); //end ready
